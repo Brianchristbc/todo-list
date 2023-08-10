@@ -1,0 +1,47 @@
+body {
+  margin: 60px;
+}
+
+.title {
+  font-family: Lato, sans-serif;
+  border-bottom: 2px solid black;
+  padding: 0px 0px 15px 0px;
+}
+
+button {
+background: mistyrose;
+border-radius: 1rem;
+padding: 0 1rem;
+margin-left: 1rem;
+height: 2rem;
+cursor: pointer;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+input {
+    margin-right: 1rem;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+}
+
+input:active {
+  border: 1px solid pink;
+}
+
+.todo-inner-container {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
